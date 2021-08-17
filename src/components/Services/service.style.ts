@@ -5,10 +5,22 @@ import { createStyles, makeStyles } from "@material-ui/styles";
 
 export const useStyles = makeStyles((theme:Theme) => 
     createStyles({
+        root:{
+            // background:'#fff !important'
+        },
         servicesHeading:{
-            textAlign:'center',
+            textAlign:'left',
             padding:'2rem',
-            background:'#fff !important'
+            color:'#fca311 !important'
+        },
+        sectionHeading:{
+            color:'#fca311 !important',
+            textAlign:'center'
+            // marginBottom:'1rem'
+        },
+        sectionItems:{
+            padding:'1rem',
+            color:'#fff'
         }
     })
 )

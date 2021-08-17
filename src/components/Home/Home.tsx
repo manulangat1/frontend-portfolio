@@ -2,7 +2,7 @@ import { Container, Grid } from '@material-ui/core'
 import Paper from '@material-ui/core/Paper'
 import React, { Fragment } from 'react'
 import { useStyles } from './Home.styles'
-import PlaceHolder from '/home/manulangat/Desktop/personal/frontend/src/Assets/img/image_to_use.png'
+import PlaceHolder from '../../Assets/img/image_to_use.png'
 const homeText = [
     {
         id:1,
@@ -21,8 +21,8 @@ const  Home =() =>{
     const classes = useStyles()
     // const matches =
     return (
-            <section id="#home">
-                <Container maxWidth="lg">
+            <section id="#home" className={classes.root}>
+                <Container maxWidth="xl">
                 <Grid container  >
                     <Grid item xs={12} sm={6} style={{display:'flex',flexDirection:'column'}}>
                         <div >

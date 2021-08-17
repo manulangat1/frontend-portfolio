@@ -7,6 +7,8 @@ export const useStyles = makeStyles((theme:Theme) =>
         root:{
             // display:'flex',
             // flexWrap:'wrap'
+            backgroundColor:'#0a2a4d',
+            padding:'2rem'
         },
         container:{
             maxWidth:'xl',
