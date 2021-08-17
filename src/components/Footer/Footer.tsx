@@ -1,9 +1,13 @@
 import React from 'react'
+import { useStyles } from './footer.styles'
 
 const  Footer = () => {
+    const today = new Date()
+    const classes = useStyles()
     return (
-        <footer>
-            <h1>...</h1>
+        <footer className={classes.footer}>
+            <p className={classes.salutation}>Made with love by Emmanuel Langat</p>
+            <p className={classes.salutation}>Rolam Technology @{`${today.getFullYear()}`}</p>
         </footer>
     )
 }
