@@ -22,3 +22,10 @@ a:hover{
   height: 40vmin;
   pointer-events: none;
 }
+
+.MuiCard{
+  background-color: teal;
+}
+.MuiCard-root{
+  background-color: teal;
+}

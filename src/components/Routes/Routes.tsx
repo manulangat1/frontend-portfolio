@@ -14,7 +14,8 @@ const useStyles = makeStyles((theme) => ({
 
     },
     basic:{
-        marginTop:'9rem'
+        marginTop:'9rem',
+        backgroundColor:'#0a2a4d'
     }
 }))
 
@@ -22,9 +23,11 @@ const  Routes = () => {
     const classes = useStyles()
     return (
         <Fragment>
-            <Header />
+            
+            
             <Switch>
             <div className={classes.basic}>
+            <Header />
                     <Home />
                     <Projects />
                     <Service />
