@@ -7,7 +7,8 @@ import { createStyles, makeStyles } from "@material-ui/styles";
 export const useStyles = makeStyles((theme:Theme) => 
  createStyles({
      footer:{
-         padding:'3rem'
+         padding:'3rem',
+         background:'#0a2a4d'
      },
      salutation:{
          textAlign:'center',

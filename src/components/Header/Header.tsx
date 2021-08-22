@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme:Theme) => ({
     },
     
     header:{
-        backgroundColor:'#007bff',
+        backgroundColor:'#0a2a4d',
         background: 'transparent',
         boxShadow:'none',
     },

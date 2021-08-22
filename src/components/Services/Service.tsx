@@ -41,9 +41,9 @@ const Service = () => {
             <div >
             <Container >
             <h1 className={classes.servicesHeading} >My Experience</h1>
-            <Grid container>
+            <Grid container  spacing={4} >
                 <Grid item  xs={12} sm={3} className="mx-2" >
-                    <Paper>
+                    <Paper className={classes.root}>
                             <h1 className={classes.sectionHeading}>Languages</h1>
                             {
                                 languages.map(lang => (
@@ -55,7 +55,7 @@ const Service = () => {
                     
                 </Grid>
                 <Grid item  xs={12} sm={3} className="mx-1"  >
-                <Paper>
+                <Paper className={classes.root}>
                     <h1 className={classes.sectionHeading}>Framework</h1>
                     {
                                 tol.map(lang => (
@@ -65,8 +65,8 @@ const Service = () => {
                             }
                         </Paper>
                 </Grid>
-                <Grid item  xs={12} sm={3} className="mx-2" style={{margin:'0 0.1rem'}}>
-                <Paper>
+                <Grid item  xs={12} sm={3}  style={{margin:'0 0.1rem'}} className={classes.root}>
+                <Paper style={{zIndex:88}} className={classes.root}>
                     <h1 className={classes.sectionHeading}>Development Tools</h1>
                     {
                                 tools.map(lang => (

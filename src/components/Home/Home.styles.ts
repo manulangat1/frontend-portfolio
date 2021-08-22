@@ -32,6 +32,9 @@ export const useStyles = makeStyles((theme:Theme) =>
         homeText:{
             color:"#fff !important",
             padding:'1rem'
+        },
+        mbTop:{
+            marginTop:'5rem'
         }
     })
 )
