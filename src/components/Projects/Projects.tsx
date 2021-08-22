@@ -36,10 +36,9 @@ const Projects = () => {
     // const matches = useMediaQuery()
     return (
         <section id="/#projects" className={classes.projects}>
-            <h1 className={classes.projectHeading}>Projects...</h1>
+            <h1 className={classes.projectHeading} > Here are some of my past projects</h1>
             {/* <Container style={{backgroundColor:'#fff !important'}} > */}
-                <p>hhh</p>
-            <Grid container style={{backgroundColor:'#fff !important'}}  >
+            <Grid container spacing={4} style={{backgroundColor:'#fff !important'}}  >
            
                 {
                     projects.map(project => (
@@ -48,7 +47,7 @@ const Projects = () => {
                                     <CardHeader
                                     title={project.title} className={classes.title}    />
                                         <CardMedia className={classes.media} image={project.image}/>
-                                    <CardContent style={{backgroundColor:'white !important'}}>
+                                        <CardContent style={{backgroundColor:'white !important'}}>
                                         <h1 className={classes.title}>{project.title}</h1>
                                         <p className={classes.description}>{project.desc}</p>
                                     </CardContent>

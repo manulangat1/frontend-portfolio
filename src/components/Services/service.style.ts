@@ -7,6 +7,7 @@ export const useStyles = makeStyles((theme:Theme) =>
     createStyles({
         root:{
             // background:'#fff !important'
+            background:'#0a2a4d'
         },
         servicesHeading:{
             textAlign:'left',

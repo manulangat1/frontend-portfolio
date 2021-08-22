@@ -23,7 +23,7 @@ const  Home =() =>{
     return (
             <section id="#home" className={classes.root}>
                 <Container maxWidth="xl">
-                <Grid container  >
+                <Grid container className={classes.mbTop}  >
                     <Grid item xs={12} sm={6} style={{display:'flex',flexDirection:'column'}}>
                         <div >
                             <h1 className={classes.heading}>Hi, Am <span className={classes.subheading}>Emmanuel Langat.</span></h1>

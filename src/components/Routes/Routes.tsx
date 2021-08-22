@@ -24,10 +24,10 @@ const  Routes = () => {
     return (
         <Fragment>
             
-            
-            <Switch>
-            <div className={classes.basic}>
             <Header />
+            <Switch>
+            <div>
+            
                     <Home />
                     <Projects />
                     <Service />
